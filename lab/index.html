@@ -4,62 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Лабораторная работа 1</title>
-    <style>
-        table {
-            border-collapse: collapse;
-        }
-        table, tr, td, th {
-            border: 1px solid grey;
-        }
-        tr, td, th {
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="img/avatar.jpg" width="30%">
-    <h1 class="border-text" style="margin-top: 0;">Это моя <del>первая</del> HTML страница</h1>
-    <h1 class="border-text">Я, <b>Синицын Евгений</b>, студент института ИИК<br> кафедры программных систем<br> 
-        факультета <u>"Фундаментальная информатика и информационные технологии"</u></h1>
-    <div style="display: flex; clear: both;">
-        <p class="border-text" style="display: inline-block; width: 50%; margin-right: 10px;">Родился я в <b>Самаре</b>, учился в <b>школе №139</b>. За свои 19 лет у меня было много различных хобби, 
-            такие как <u>видео-игры, сборка кубика рубика, лепка из воздушного пластилина, рисование по номерам, валяние из шерсти, вязание и т.п.</u></p>
-        <p class="border-text" style="display: inline-block; width: 50%; margin-left: 10px;">Из интересных фактов, могу отметить, что я уже знаком с созданием веб-приложений, 
-            есть собственный <a href="https://warer.ru/">сайт</a>, который с нуля написан мной. 
-            Однако мне хотелось бы прокачать <i>фронтенд навыки</i>, 
-            дабы <b>качественнее верстать страницы</b>, <b>не нагромождать их</b> ненужными элементами, <b>делать их более масштабируемыми.</b></p>
-    
+    <div class="content">
+        <div class="content-left">
+            <h1 class="border-text" style="margin-top: 0;">Это моя <del>первая</del> HTML страница</h1>
+            <h1 class="border-text">Я, <b>Синицын Евгений</b>, студент института ИИК<br> кафедры программных систем<br> 
+                факультета <u>"Фундаментальная информатика и информационные технологии"</u></h1>
+            <div style="display: flex; clear: both;">
+                <p class="border-text" style="display: inline-block; width: 50%; margin-right: 10px;">Родился я в <b>Самаре</b>, учился в <b>школе №139</b>. За свои 19 лет у меня было много различных хобби, 
+                    такие как <u>видео-игры, сборка кубика рубика, лепка из воздушного пластилина, рисование по номерам, валяние из шерсти, вязание и т.п.</u></p>
+                <p class="border-text" style="display: inline-block; width: 50%; margin-left: 10px;">Из интересных фактов, могу отметить, что я уже знаком с созданием веб-приложений, 
+                    есть собственный <a href="https://warer.ru/">сайт</a>, который с нуля написан мной. 
+                    Однако мне хотелось бы прокачать <i>фронтенд навыки</i>, 
+                    дабы <b>качественнее верстать страницы</b>, <b>не нагромождать их</b> ненужными элементами, <b>делать их более масштабируемыми.</b></p>
+            
+            </div>
+            <table>
+                <tr>
+                    <th><h2>Топ 5 фильмов и сериалов, которые мне нравятся</h2></td>
+                    <th><h2>Топ 5 музыкальных исполнителей, которые мне нравятся</h2></td>
+                    <th><h2>Хотите со мной связаться?</h2></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ol>
+                            <li>Очень странные дела</li>
+                            <li>Половое воспитание</li>
+                            <li>Игра в кальмара</li>
+                            <li>Мы все мертвы</li>
+                            <li>Голодные игры</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Cavetown</li>
+                            <li>Conan Gray</li>
+                            <li>Girl in red</li>
+                            <li>Монеточка</li>
+                            <li>Clario</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <div><a href="https://t.me/evgeniy_warer">Telegram</a></div>
+                        <div><a href="https://vk.com/evvgeenii">VKontakte</a></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="content-right">
+            <img src="img/avatar.jpg">
+        </div>
     </div>
-    <table>
-        <tr>
-            <th><h2>Топ 5 фильмов и сериалов, которые мне нравятся</h2></td>
-            <th><h2>Топ 5 музыкальных исполнителей, которые мне нравятся</h2></td>
-            <th><h2>Хотите со мной связаться?</h2></td>
-        </tr>
-        <tr>
-            <td>
-                <ol>
-                    <li>Очень странные дела</li>
-                    <li>Половое воспитание</li>
-                    <li>Игра в кальмара</li>
-                    <li>Мы все мертвы</li>
-                    <li>Голодные игры</li>
-                </ol>
-            </td>
-            <td>
-                <ul>
-                    <li>Cavetown</li>
-                    <li>Conan Gray</li>
-                    <li>Girl in red</li>
-                    <li>Монеточка</li>
-                    <li>Clario</li>
-                </ul>
-            </td>
-            <td>
-                <div><a href="https://t.me/evgeniy_warer">Telegram</a></div>
-                <div><a href="https://vk.com/evvgeenii">VKontakte</a></div>
-            </td>
-        </tr>
-    </table>
+    
+    
 </body>
 </html>
