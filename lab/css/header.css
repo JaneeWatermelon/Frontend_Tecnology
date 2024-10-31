@@ -1,0 +1,14 @@
+.header {
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(122, 183, 253);
+    padding: 10px;
+
+}
+
+.header a {
+    font-size: 25px;
+}
