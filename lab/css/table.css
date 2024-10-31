@@ -37,3 +37,19 @@ tr:nth-child(odd) {
 caption {
     font-size: 25px;
 }
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select {
+    width: fit-content;
+}
